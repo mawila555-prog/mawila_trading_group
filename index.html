@@ -9,80 +9,108 @@
 
 <style>
 
-/* 🌑 MODERN DARK DESIGN */
+/* ===== GLOBAL ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+    background: #0b0b0b;
     color: white;
-    background: radial-gradient(circle at top, #1a0000, #0d0d0d, #000);
+    overflow-x: hidden;
 }
 
-/* HEADER */
-header {
-    background: linear-gradient(90deg, #C1121F, #111);
-    padding: 25px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.8rem;
-}
-
-/* NAV */
-nav {
-    background: white;
-    padding: 15px;
-    text-align: center;
-}
-
-nav a {
-    margin: 0 15px;
-    text-decoration: none;
-    color: #111;
-    font-weight: bold;
-}
-
-/* HERO */
+/* ===== HERO (HIGH IMPACT) ===== */
 .hero {
-    padding: 90px 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    background: radial-gradient(circle at top, #c1121f, #0b0b0b 60%);
+    padding: 20px;
 }
 
-.hero h2 {
-    font-size: 2.6rem;
-    color: #C1121F;
+.hero h1 {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
 }
 
-/* SERVICES MODERN UI */
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.cta {
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #c1121f;
+    color: white;
+}
+
+.btn-outline {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* ===== SECTION TITLE ===== */
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 60px 0 20px;
+    color: #c1121f;
+}
+
+/* ===== SERVICES ===== */
 .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
     padding: 40px;
 }
 
 .card {
     background: rgba(255,255,255,0.05);
-    border: 1px solid #C1121F;
+    border: 1px solid rgba(193,18,31,0.5);
     padding: 25px;
     border-radius: 15px;
     text-align: center;
-    transition: 0.3s;
+    backdrop-filter: blur(10px);
+    transition: 0.4s;
 }
 
 .card:hover {
     transform: translateY(-10px);
-    background: rgba(193,18,31,0.2);
+    background: rgba(193,18,31,0.15);
 }
 
 .card i {
     font-size: 40px;
-    color: #C1121F;
+    color: #c1121f;
     margin-bottom: 10px;
 }
 
-/* CONTACT */
+/* ===== CONTACT ===== */
 .contact {
     padding: 60px 20px;
     text-align: center;
@@ -93,63 +121,64 @@ nav a {
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 12px;
 }
 
 .contact input,
 .contact textarea {
     padding: 12px;
+    border-radius: 10px;
     border: none;
-    border-radius: 8px;
 }
 
 .contact button {
-    background: #C1121F;
+    background: #c1121f;
     color: white;
     padding: 12px;
+    border-radius: 10px;
     border: none;
-    cursor: pointer;
     font-weight: bold;
-    border-radius: 8px;
+    cursor: pointer;
 }
 
-/* MAP */
+/* ===== MAP ===== */
 .map {
     padding: 40px;
     text-align: center;
 }
 
-/* FOOTER */
+iframe {
+    border-radius: 15px;
+}
+
+/* ===== FLOATING BUTTONS ===== */
+.whatsapp, .call {
+    position: fixed;
+    right: 20px;
+    padding: 12px 15px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 0 10px black;
+}
+
+.whatsapp {
+    bottom: 20px;
+    background: #25D366;
+}
+
+.call {
+    bottom: 80px;
+    background: #007BFF;
+}
+
+/* ===== FOOTER ===== */
 footer {
-    background: #C1121F;
     text-align: center;
     padding: 20px;
-}
-
-/* WHATSAPP BUTTON */
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #25D366;
-    color: white;
-    padding: 12px 15px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* CALL BUTTON */
-.call {
-    position: fixed;
-    bottom: 80px;
-    right: 20px;
-    background: #007BFF;
-    color: white;
-    padding: 12px 15px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
+    background: #111;
+    margin-top: 40px;
 }
 
 </style>
@@ -157,92 +186,85 @@ footer {
 
 <body>
 
-<header>
-    <h1>Mawila Trading Group</h1>
-    <p>General Trading & Maintenance Experts</p>
-</header>
-
-<nav>
-    <a href="#">Home</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-</nav>
-
 <!-- HERO -->
 <section class="hero">
-    <h2>Reliable Maintenance Solutions</h2>
-    <p>Professional, fast and affordable services in Cape Town</p>
+    <h1>Mawila Trading Group</h1>
+    <p>General Trading • Maintenance • Construction Services</p>
+
+    <div class="cta">
+        <a href="#contact" class="btn btn-primary">Get Quote</a>
+        <a href="tel:+27722301683" class="btn btn-outline">Call Now</a>
+    </div>
 </section>
 
-<!-- SERVICES MODERN ICONS -->
-<section id="services" class="services">
+<!-- SERVICES -->
+<h2 class="section-title">Our Services</h2>
+
+<section class="services">
 
     <div class="card">
         <i class="fas fa-bolt"></i>
         <h3>Electrical</h3>
-        <p>Safe installations & repairs</p>
+        <p>Safe installations, repairs & maintenance.</p>
     </div>
 
     <div class="card">
         <i class="fas fa-faucet"></i>
         <h3>Plumbing</h3>
-        <p>Leak repairs & installations</p>
+        <p>Leak fixing, pipe installations & repairs.</p>
     </div>
 
     <div class="card">
         <i class="fas fa-hammer"></i>
         <h3>Renovations</h3>
-        <p>Modern property upgrades</p>
+        <p>Modern upgrades & property improvements.</p>
     </div>
 
     <div class="card">
         <i class="fas fa-truck"></i>
         <h3>General Trading</h3>
-        <p>Supply & procurement services</p>
+        <p>Supply of materials & procurement services.</p>
     </div>
 
 </section>
 
 <!-- CONTACT -->
+<h2 class="section-title">Contact Us</h2>
+
 <section id="contact" class="contact">
-    <h2>Contact Us</h2>
 
-    <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
+<form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
 
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" placeholder="Your Message" required></textarea>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
 
-        <button type="submit">Send Message</button>
+    <button type="submit">Send Message</button>
 
-        <input type="hidden" name="_captcha" value="false">
-    </form>
+    <input type="hidden" name="_captcha" value="false">
+</form>
+
 </section>
 
-<!-- GOOGLE MAP -->
+<!-- MAP -->
+<h2 class="section-title">Find Us</h2>
+
 <section class="map">
-    <h2>Our Location</h2>
-
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13296.0!2d18.4241!3d-33.9249"
-        width="100%" height="300" style="border:0;"
-        allowfullscreen="" loading="lazy">
-    </iframe>
+<iframe
+width="100%" height="300"
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13296.0!2d18.4241!3d-33.9249"
+allowfullscreen="">
+</iframe>
 </section>
 
+<!-- FLOATING BUTTONS -->
+<a href="https://wa.me/27722301683" class="whatsapp">💬 WhatsApp</a>
+<a href="tel:+27722301683" class="call">📞 Call</a>
+
+<!-- FOOTER -->
 <footer>
-    <p>© 2026 Mawila Trading Group</p>
+    © 2026 Mawila Trading Group
 </footer>
-
-<!-- WHATSAPP -->
-<a href="https://wa.me/27722301683" class="whatsapp" target="_blank">
-💬 WhatsApp
-</a>
-
-<!-- CALL BUTTON -->
-<a href="tel:+27722301683" class="call">
-📞 Call
-</a>
 
 </body>
 </html>
