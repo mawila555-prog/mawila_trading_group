@@ -1,193 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mawila Trading Group</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mawila Trading Group</title>
 
-    <style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-        /* 🌑 Animated Background */
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: white;
-            background: linear-gradient(-45deg, #111111, #1a0000, #111111, #2b0000);
-            background-size: 400% 400%;
-            animation: bgMove 10s ease infinite;
-        }
+<style>
 
-        @keyframes bgMove {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
+/* 🌑 MODERN DARK DESIGN */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: radial-gradient(circle at top, #1a0000, #0d0d0d, #000);
+}
 
-        /* 🖼️ Banner + Logo */
-        .banner {
-            width: 100%;
-            display: block;
-        }
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #C1121F, #111);
+    padding: 25px;
+    text-align: center;
+}
 
-        .logo {
-            width: 90px;
-            margin-bottom: 10px;
-        }
+header h1 {
+    margin: 0;
+    font-size: 2.8rem;
+}
 
-        header {
-            background: #C1121F;
-            padding: 20px;
-            text-align: center;
-        }
+/* NAV */
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+}
 
-        header h1 {
-            margin: 0;
-            font-size: 3rem;
-        }
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #111;
+    font-weight: bold;
+}
 
-        nav {
-            background: white;
-            padding: 15px;
-            text-align: center;
-        }
+/* HERO */
+.hero {
+    padding: 90px 20px;
+    text-align: center;
+}
 
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #111111;
-            font-weight: bold;
-        }
+.hero h2 {
+    font-size: 2.6rem;
+    color: #C1121F;
+}
 
-        .hero {
-            padding: 100px 20px;
-            text-align: center;
-        }
+/* SERVICES MODERN UI */
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 40px;
+}
 
-        .hero h2 {
-            font-size: 2.5rem;
-            color: #C1121F;
-            animation: fadeIn 2s ease-in-out;
-        }
+.card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #C1121F;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(193,18,31,0.2);
+}
 
-        .services {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            padding: 40px;
-        }
+.card i {
+    font-size: 40px;
+    color: #C1121F;
+    margin-bottom: 10px;
+}
 
-        .card {
-            background: #1f1f1f;
-            border: 2px solid #C1121F;
-            padding: 20px;
-            border-radius: 10px;
-        }
+/* CONTACT */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+}
 
-        /* 📩 Contact Form */
-        .contact {
-            padding: 50px;
-            text-align: center;
-        }
+.contact form {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
-        .contact form {
-            max-width: 500px;
-            margin: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+.contact input,
+.contact textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+}
 
-        .contact input,
-        .contact textarea {
-            padding: 12px;
-            border: none;
-            border-radius: 5px;
-        }
+.contact button {
+    background: #C1121F;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+}
 
-        .contact button {
-            background: #C1121F;
-            color: white;
-            padding: 12px;
-            border: none;
-            cursor: pointer;
-            font-weight: bold;
-        }
+/* MAP */
+.map {
+    padding: 40px;
+    text-align: center;
+}
 
-        footer {
-            background: #C1121F;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
+/* FOOTER */
+footer {
+    background: #C1121F;
+    text-align: center;
+    padding: 20px;
+}
 
-        /* 💬 WhatsApp Button */
-        .whatsapp {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background: #25D366;
-            color: white;
-            padding: 12px 15px;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            box-shadow: 0 0 10px black;
-        }
+/* WHATSAPP BUTTON */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    </style>
+/* CALL BUTTON */
+.call {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #007BFF;
+    color: white;
+    padding: 12px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+</style>
 </head>
 
 <body>
 
-<!-- 🖼️ OPTIONAL BANNER -->
-<!-- <img src="assets/banner.jpg" class="banner"> -->
-
 <header>
-    <!-- 🖼️ OPTIONAL LOGO -->
-    <!-- <img src="assets/logo.png" class="logo"> -->
-
     <h1>Mawila Trading Group</h1>
     <p>General Trading & Maintenance Experts</p>
 </header>
 
 <nav>
     <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">Projects</a>
-    <a href="#">Contact</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
 </nav>
 
+<!-- HERO -->
 <section class="hero">
     <h2>Reliable Maintenance Solutions</h2>
-    <p>Professional repairs, renovations, and commercial maintenance services.</p>
+    <p>Professional, fast and affordable services in Cape Town</p>
 </section>
 
-<section class="services">
+<!-- SERVICES MODERN ICONS -->
+<section id="services" class="services">
 
     <div class="card">
+        <i class="fas fa-bolt"></i>
         <h3>Electrical</h3>
-        <p>Safe and professional electrical repairs and installations.</p>
+        <p>Safe installations & repairs</p>
     </div>
 
     <div class="card">
+        <i class="fas fa-faucet"></i>
         <h3>Plumbing</h3>
-        <p>Reliable plumbing services for homes and businesses.</p>
+        <p>Leak repairs & installations</p>
     </div>
 
     <div class="card">
+        <i class="fas fa-hammer"></i>
         <h3>Renovations</h3>
-        <p>Modern upgrades and property improvement solutions.</p>
+        <p>Modern property upgrades</p>
+    </div>
+
+    <div class="card">
+        <i class="fas fa-truck"></i>
+        <h3>General Trading</h3>
+        <p>Supply & procurement services</p>
     </div>
 
 </section>
 
-<!-- 📩 CONTACT FORM -->
-<section class="contact">
+<!-- CONTACT -->
+<section id="contact" class="contact">
     <h2>Contact Us</h2>
 
     <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
@@ -202,13 +219,29 @@
     </form>
 </section>
 
+<!-- GOOGLE MAP -->
+<section class="map">
+    <h2>Our Location</h2>
+
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13296.0!2d18.4241!3d-33.9249"
+        width="100%" height="300" style="border:0;"
+        allowfullscreen="" loading="lazy">
+    </iframe>
+</section>
+
 <footer>
     <p>© 2026 Mawila Trading Group</p>
 </footer>
 
-<!-- 💬 WhatsApp Button -->
+<!-- WHATSAPP -->
 <a href="https://wa.me/27722301683" class="whatsapp" target="_blank">
-    💬 Chat on WhatsApp
+💬 WhatsApp
+</a>
+
+<!-- CALL BUTTON -->
+<a href="tel:+27722301683" class="call">
+📞 Call
 </a>
 
 </body>
