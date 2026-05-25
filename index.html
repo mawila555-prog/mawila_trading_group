@@ -6,11 +6,32 @@
     <title>Mawila Trading Group</title>
 
     <style>
+
+        /* 🌑 Animated Background */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            background-color: #111111;
             color: white;
+            background: linear-gradient(-45deg, #111111, #1a0000, #111111, #2b0000);
+            background-size: 400% 400%;
+            animation: bgMove 10s ease infinite;
+        }
+
+        @keyframes bgMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* 🖼️ Banner + Logo */
+        .banner {
+            width: 100%;
+            display: block;
+        }
+
+        .logo {
+            width: 90px;
+            margin-bottom: 10px;
         }
 
         header {
@@ -45,6 +66,12 @@
         .hero h2 {
             font-size: 2.5rem;
             color: #C1121F;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .services {
@@ -61,18 +88,69 @@
             border-radius: 10px;
         }
 
+        /* 📩 Contact Form */
+        .contact {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .contact form {
+            max-width: 500px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .contact input,
+        .contact textarea {
+            padding: 12px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background: #C1121F;
+            color: white;
+            padding: 12px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
         footer {
             background: #C1121F;
             text-align: center;
             padding: 20px;
             margin-top: 40px;
         }
+
+        /* 💬 WhatsApp Button */
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 12px 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 0 10px black;
+        }
+
     </style>
 </head>
 
 <body>
 
+<!-- 🖼️ OPTIONAL BANNER -->
+<!-- <img src="assets/banner.jpg" class="banner"> -->
+
 <header>
+    <!-- 🖼️ OPTIONAL LOGO -->
+    <!-- <img src="assets/logo.png" class="logo"> -->
+
     <h1>Mawila Trading Group</h1>
     <p>General Trading & Maintenance Experts</p>
 </header>
@@ -108,9 +186,30 @@
 
 </section>
 
+<!-- 📩 CONTACT FORM -->
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <form action="https://formsubmit.co/YOUR-EMAIL@gmail.com" method="POST">
+
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+
+        <input type="hidden" name="_captcha" value="false">
+    </form>
+</section>
+
 <footer>
     <p>© 2026 Mawila Trading Group</p>
 </footer>
+
+<!-- 💬 WhatsApp Button -->
+<a href="https://wa.me/27722301683" class="whatsapp" target="_blank">
+    💬 Chat on WhatsApp
+</a>
 
 </body>
 </html>
