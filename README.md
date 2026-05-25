@@ -1,47 +1,57 @@
-# mawila_trading_group
-General Trading Company
-
-# Creative Development Group
-
-## Professional Maintenance & Development Services
-
-Creative Development Group specializes in:
-- Property Maintenance
-- Electrical Repairs
-- Plumbing Services
-- Renovations
-- General Construction
-- Commercial Maintenance
+# Mawila Trading Group
+General Trading & Maintenance Company
 
 ---
 
 ## About Us
 
-Creative Development Group delivers reliable maintenance and development solutions with a focus on quality workmanship, fast response times, and professional service.
+Mawila Trading Group is a professional general trading and maintenance company based in Cape Town, South Africa. We specialize in delivering reliable services across residential, commercial, and industrial sectors with a focus on quality, efficiency, and customer satisfaction.
 
 ---
 
-## Services
+## Our Services
 
-### Residential Maintenance
-- Home repairs
+### Maintenance Services
+- Property Maintenance
+- Electrical Repairs
+- Plumbing Services
+- Painting & Finishing
 - Renovations
-- Painting
-- Plumbing
+- General Construction
 
 ### Commercial Services
-- Office maintenance
-- Electrical systems
-- Building upgrades
-- Preventative maintenance
+- Office Maintenance
+- Building Upgrades
+- Preventative Maintenance
+- Facility Management
+
+### General Trading
+- Supply of Building Materials
+- Maintenance Equipment
+- Industrial Supplies
+- Procurement Services
 
 ---
 
-## Contact
+## About Our Work
 
-📍 Cape Town, South Africa
-📧 info@creativedevelopmentgroup.co.za
-📞 +27 72 230 1683
+We are committed to providing dependable workmanship, fast turnaround times, and cost-effective solutions tailored to client needs. Our team ensures every project is completed with professionalism and attention to detail.
+
+---
+
+## Contact Information
+
+📍 Cape Town, South Africa  
+📧 info@mawilatradinggroup.co.za  
+📞 +27 72 230 1683  
+
+---
+
+## Company Details
+
+**Company Name:** Mawila Trading Group  
+**Industry:** General Trading & Maintenance  
+**Location:** Cape Town, South Africa  
 
 ---
 
