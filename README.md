@@ -1,60 +1,95 @@
 # Mawila Trading Group
-General Trading & Maintenance Company
+
+## General Trading • Maintenance • Construction Services
+
+Mawila Trading Group is a professional maintenance and general trading company based in Cape Town, South Africa. We provide reliable, high-quality services for residential, commercial, and industrial clients.
 
 ---
 
-## About Us
+## 🚀 About Our Company
 
-Mawila Trading Group is a professional general trading and maintenance company based in Cape Town, South Africa. We specialize in delivering reliable services across residential, commercial, and industrial sectors with a focus on quality, efficiency, and customer satisfaction.
+We specialize in delivering fast, affordable, and professional services with a strong focus on quality workmanship and customer satisfaction.
 
----
-
-## Our Services
-
-### Maintenance Services
-- Property Maintenance
-- Electrical Repairs
-- Plumbing Services
-- Painting & Finishing
-- Renovations
-- General Construction
-
-### Commercial Services
-- Office Maintenance
-- Building Upgrades
-- Preventative Maintenance
-- Facility Management
-
-### General Trading
-- Supply of Building Materials
-- Maintenance Equipment
-- Industrial Supplies
-- Procurement Services
+Our goal is to be a trusted partner for all maintenance, renovation, and supply needs.
 
 ---
 
-## About Our Work
+## 🔧 Our Services
 
-We are committed to providing dependable workmanship, fast turnaround times, and cost-effective solutions tailored to client needs. Our team ensures every project is completed with professionalism and attention to detail.
+### ⚡ Electrical
+- Installations
+- Repairs
+- Maintenance
+
+### 🚰 Plumbing
+- Leak repairs
+- Pipe installations
+- Emergency plumbing
+
+### 🔨 Renovations
+- Home improvements
+- Property upgrades
+- Interior & exterior work
+
+### 🚛 General Trading
+- Building materials supply
+- Procurement services
+- Industrial equipment sourcing
 
 ---
 
-## Contact Information
+## 📍 Location
 
-📍 Cape Town, South Africa  
-📧 info@mawilatradinggroup.co.za  
-📞 +27 72 230 1683  
+Cape Town, South Africa
 
 ---
 
-## Company Details
+## 📞 Contact Information
 
-**Company Name:** Mawila Trading Group  
-**Industry:** General Trading & Maintenance  
-**Location:** Cape Town, South Africa  
+📧 Email: YOUR-EMAIL@gmail.com  
+📱 Phone: +27 72 230 1683  
+💬 WhatsApp: https://wa.me/27722301683  
 
 ---
 
-## License
+## 🌐 Website
 
-This project is licensed under the MIT License.
+This project contains the official Mawila Trading Group website built using HTML, CSS, and JavaScript and hosted on GitHub Pages.
+
+---
+
+## 🎯 Features
+
+- Modern responsive design
+- Mobile-friendly layout
+- Contact form integration
+- WhatsApp click-to-chat button
+- Call button for instant contact
+- Google Maps location embed
+- Animated UI design
+
+---
+
+## 📌 Technologies Used
+
+- HTML5
+- CSS3
+- Font Awesome Icons
+- GitHub Pages Hosting
+
+---
+
+## 🛠️ Deployment
+
+This website is hosted using GitHub Pages:
+
+1. Go to repository settings
+2. Enable **Pages**
+3. Select branch: `main`
+4. Site goes live automatically
+
+---
+
+## 📄 License
+
+© 2026 Mawila Trading Group. All rights reserved.
