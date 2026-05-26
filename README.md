@@ -1,95 +1,134 @@
 # Mawila Trading Group
 
-## General Trading • Maintenance • Construction Services
+## Connecting Dots Everywhere We Go
 
-Mawila Trading Group is a professional maintenance and general trading company based in Cape Town, South Africa. We provide reliable, high-quality services for residential, commercial, and industrial clients.
+### General Trading • Maintenance • Construction Solutions
 
----
+Mawila Trading Group is a modern South African company specializing in professional maintenance, construction support, procurement, and general trading services.
 
-## 🚀 About Our Company
-
-We specialize in delivering fast, affordable, and professional services with a strong focus on quality workmanship and customer satisfaction.
-
-Our goal is to be a trusted partner for all maintenance, renovation, and supply needs.
+Based in Parklands North, Cape Town, we deliver reliable and high-quality solutions for residential, commercial, and industrial clients across South Africa.
 
 ---
 
-## 🔧 Our Services
+# 🚀 About Us
 
-### ⚡ Electrical
-- Installations
-- Repairs
-- Maintenance
+At Mawila Trading Group, we focus on delivering dependable service, quality workmanship, and professional client support.
 
-### 🚰 Plumbing
+Our mission is to provide efficient maintenance and trading solutions while building long-term relationships through trust, reliability, and excellence.
+
+---
+
+# 🔧 Our Services
+
+## ⚡ Electrical Services
+- Electrical installations
+- Repairs & fault finding
+- Maintenance services
+- Residential & commercial solutions
+
+---
+
+## 🚰 Plumbing Services
 - Leak repairs
 - Pipe installations
-- Emergency plumbing
+- Bathroom & kitchen plumbing
+- Emergency plumbing support
 
-### 🔨 Renovations
-- Home improvements
+---
+
+## 🔨 Renovations & Construction
 - Property upgrades
-- Interior & exterior work
-
-### 🚛 General Trading
-- Building materials supply
-- Procurement services
-- Industrial equipment sourcing
+- Renovation projects
+- Interior improvements
+- Commercial maintenance
 
 ---
 
-## 📍 Location
-
-Cape Town, South Africa
-
----
-
-## 📞 Contact Information
-
-📧 Email: YOUR-EMAIL@gmail.com  
-📱 Phone: +27 72 230 1683  
-💬 WhatsApp: https://wa.me/27722301683  
+## 🚛 General Trading
+- Procurement solutions
+- Building material supply
+- Commercial sourcing
+- Industrial support services
 
 ---
 
-## 🌐 Website
+# 🌍 Service Area
 
-This project contains the official Mawila Trading Group website built using HTML, CSS, and JavaScript and hosted on GitHub Pages.
+📍 Parklands North, Cape Town, South Africa
+
+We proudly provide services across Cape Town and surrounding areas.
 
 ---
 
-## 🎯 Features
+# 📞 Contact Information
 
-- Modern responsive design
-- Mobile-friendly layout
+📧 Email: YOUR-EMAIL@gmail.com
+
+📱 Phone: +27 72 230 1683
+
+💬 WhatsApp:
+https://wa.me/27722301683
+
+---
+
+# 🌐 Website Features
+
+This project contains the official Mawila Trading Group commercial website developed using modern web technologies and hosted on GitHub Pages.
+
+### Included Features:
+- Premium modern UI design
+- Fully responsive mobile layout
+- Navy & white corporate branding
+- Interactive service cards
 - Contact form integration
-- WhatsApp click-to-chat button
-- Call button for instant contact
-- Google Maps location embed
-- Animated UI design
+- WhatsApp click-to-chat support
+- Click-to-call functionality
+- Google Maps integration
+- Animated glassmorphism effects
+- Commercial landing page design
 
 ---
 
-## 📌 Technologies Used
+# 💻 Technologies Used
 
 - HTML5
 - CSS3
-- Font Awesome Icons
+- Font Awesome
+- Responsive Design
 - GitHub Pages Hosting
 
 ---
 
-## 🛠️ Deployment
+# 🛠️ Deployment
 
-This website is hosted using GitHub Pages:
+This website is deployed using GitHub Pages.
 
-1. Go to repository settings
-2. Enable **Pages**
-3. Select branch: `main`
-4. Site goes live automatically
+## Deployment Steps
+
+1. Open repository settings
+2. Navigate to **Pages**
+3. Select branch:
+```bash
+main
+```
+4. Save settings
+5. GitHub automatically publishes the live website
 
 ---
 
-## 📄 License
+# 📌 Live Website
 
-© 2026 Mawila Trading Group. All rights reserved.
+The live site is available through GitHub Pages after deployment.
+
+Example:
+```bash
+https://yourusername.github.io/mawila_trading_group/
+```
+
+---
+
+# 📄 License
+
+© 2026 Mawila Trading Group
+
+All rights reserved.
